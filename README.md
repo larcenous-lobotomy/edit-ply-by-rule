@@ -12,7 +12,7 @@ areas of the new triangles.
 7. Output the filtered surface mesh in a `.ply` file format
 
 # Convention
-The program is written following the OOP paradigm. The Task1 object inherits from the Base class, which provides methods for read, operate and write. 
+The program is written following the OOP paradigm. The Task1 object inherits from the Base class, which provides methods for read, operate and write. The program reads the `test.ply` file, which in this case is a copy of the file `airplane.ply`, which depicts a plane upon visualisation in an appropriate software, such as Octave. As expected, the formatting operation following the stated rule trims the nose of the airplane. Any other file might be tested by overwriting it onto `test.ply`.
 
 # Instructions
 The command `g++ test.cpp Task1.cpp Base.cpp` will compile the files and produce an executable, which when run, will dump the output to the file `output.ply`. 

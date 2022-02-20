@@ -16,3 +16,6 @@ The program is written following the OOP paradigm. The Task1 object inherits fro
 
 # Instructions
 The command `g++ test.cpp Task1.cpp Base.cpp` will compile the files and produce an executable, which when run, will dump the output to the file `output.ply`. 
+
+# Reference
+[https://people.math.sc.edu/Burkardt/data/ply/ply.html]
